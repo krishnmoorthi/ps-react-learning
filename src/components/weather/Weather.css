@@ -1,0 +1,26 @@
+.Weather {
+    width: 150px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #020512;
+    text-align: center;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .Weather-condition {
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes Weather-condition-spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(360deg);
+    }
+}
